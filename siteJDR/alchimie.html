@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mon JDR</title>
+	<link rel="stylesheet" href="./stylesheet/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./stylesheet/feuille/feuille_style.css">
+</head>
+<body>
+	<header class="entete">
+		<h2 id="hykosia">Le monde d'Hykosia</h2>
+	</header>
+	<nav>
+		<a href="index.html" title ="presentation">Présentation de l'univers</a>
+		<a href="heros.html" title ="heros">Les héros</a>
+        <a href="regles.html" title ="regles">Règles</a>
+        <a href="dons.html" title ="dons">Dons et compétences</a>
+		<a href="magie.html" title ="magie">Magie ancestrale</a>
+		<a href="bateaux.php" title ="bateaux">Navires et pillage</a>
+		<a href="commerce.php" title ="commerce">Commerce</a>
+		<a href="quetes.html" title="quetes">Quêtes secondaires</a>
+		<a href="alchimie.html" title="alchimie">Alchimie</a>
+		<a href="calcul.html" title="calculateur">Calculateur</a>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./stylesheet/dist/js/bootstrap.min.js"></script>
+    <script src="./includes/script/script_alchimie.js" type="text/javascript"></script>
+    <section>
+        <article>
+            <p>
+                L'alchimie est essentielle dans le monde d'Hykosya. Elle permet de bien préparer un combat. 
+                Les potions ont deux niveaux de puissance :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>potion de niveau I : 2 ingrédients sont nécessaires</li>
+                    <li>potion de niveau II : 3 ingrédients sont nécessaires</li>
+                </ul>
+                Il exite plusieurs type de potions :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>augmentation des résistances des alliés</li>
+                    <li>fortification des alliés</li>
+                    <li>affaiblissement : ces potions doivent obligatoirement être ingérées par la cible</li>
+                    <li>poisons</li>
+                </ul>
+                Pour réaliser une potion, l'alchimiste doit :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>rassembler les potions</li>
+                    <li>réussir un test d'artisanat en pharmacologie</li>
+                </ul>
+                Le test d'artisanat dépend du niveau de la potion :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>potions de niveau I : DD > 15</li>
+                    <li>potions de niveau II : DD > 25</li>
+                </ul>
+                Il est important de noter que les potions sont utilisables à n'importe quel moment et 
+                n'importe où. L'alchimiste, s'il connaît l'ancienne magie, peut utiliser des mots de 
+                pouvoir pour réaliser une potion de niveau II. Dans ce cas le mot de puissance est 
+                entre guillements. Il va sans dire que l'alchimiste aura besoin de fiole vide. A ce 
+                propos, tout contenant en vere vide peut servir : bouteille de rhum, fiole de potion ...
+                <br>
+                L'alchimiste devra trouver ou acheter les recettes et les ingrédients. Seuls les druides 
+                et les alchimistes peuvent vendre des ingrédients alchimiques véritables. Tous les autres 
+                PNJ qui en vendent sont des arnaqueurs.
+            </p>
+        </article>
+        <article>
+            <header>Potions de résistances</header>
+            <table>
+                <tr>
+                    <td>Niveau</td>
+                    <td class="recherche" colspan="2">Niveau I</td>
+                    <td class="recherche" colspan="2">Niveau II</td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                </tr>
+                <tr>
+                    <td>Sang de fer</td>
+                    <td>Vitriol + Vermillion</td>
+                    <td>Protège contre le saignement pendant 10 tours</td>
+                    <td>Vitriol + Vermillion + Vitriol</td>
+                    <td>Immunité au saignement et soigne la blessure hémorragie</td>
+                </tr>
+                <tr>
+                    <td>Liseron</td>
+                    <td>Vitriol + Quebrith</td>
+                    <td>Annule les effets de l'acide</td>
+                    <td>Vitriol + Quebrith + Ether</td>
+                    <td>Immunise contre l'acide pendant 10 tours</td>
+                </tr>
+                <tr>
+                    <td>Rastra jahmel</td>
+                    <td>Grâce cristalline + Vitriol</td>
+                    <td>Dégat de froid divisé par 2 pendant 10 tours</td>
+                    <td>Grâce cristalline + Vitriol + "Rastra"</td>
+                    <td>Absorption des dégats de froid pendant 10 tours</td>
+                </tr>
+                <tr>
+                    <td>Erah jahmel</td>
+                    <td>Fade ortie + Grâce cristalline</td>
+                    <td>Dégat de feu divisé par 2 pendant 10 tours</td>
+                    <td>Fade ortie brulante + Grâce cristalline + "Erah"</td>
+                    <td>Absorption des dégats de feu pendant 10 tours</td>
+                </tr>
+                <tr>
+                    <td>Hzin jahmel</td>
+                    <td>Coeur d'orage + Ether</td>
+                    <td>Dégat de foudre divisé par 2 pendant 10 tours</td>
+                    <td>Coeur d'orage + Ether + "Hzin"</td>
+                    <td>Absorption des dégats de foudre pendant 10 tours</td>
+                </tr>
+                <tr>
+                    <td>Sang de dragon</td>
+                    <td>Sang de dragon + Ether</td>
+                    <td>Annule les effets du poison</td>
+                    <td>Sang de dragon + Ether + Vitriol</td>
+                    <td>Immunité au poison pendant une scène</td>
+                </tr>
+                <tr>
+                    <td>Esprit d'acier</td>
+                    <td>Felandaris + Elfidée</td>
+                    <td>Annule les effets de contrôle mental</td>
+                    <td>Felandaris + Elfidée + Lotus noir</td>
+                    <td>Protège contre le contrôle mentale pendant 10 tours</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>Potions de fortification</header>
+            <table>
+                <tr>
+                    <td>Niveau</td>
+                    <td class="recherche" colspan="2">Niveau I</td>
+                    <td class="recherche" colspan="2">Niveau II</td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                </tr>
+                <tr>
+                    <td>Vitesse</td>
+                    <td>Vitriol + Rebis</td>
+                    <td>Double le déplacement</td>
+                    <td>Vitriol + Rebis + Rebis</td>
+                    <td>Double le déplacement et octroie une action</td>
+                </tr>
+                <tr>
+                    <td>Glouton</td>
+                    <td>Ether + Quebrith</td>
+                    <td>Octroie 50 PV pendant une scène complète</td>
+                    <td>Ether + Vermillon + Quebrith</td>
+                    <td>Octroie 50 PV pendant une scène complète et augmente la défense de 2</td>
+                </tr>
+                <tr>
+                    <td>Forêt de Maribor</td>
+                    <td>Rebis + Ether</td>
+                    <td>Bonus d'incantation de +10 pendant une scène</td>
+                    <td>Rebis + Ether + Lotus noir</td>
+                    <td>Bonus d'incantation de +10 pendant et réussite critique à 16-20 pendant une scène</td>
+                </tr>
+                <tr>
+                    <td>Pie-Grièche</td>
+                    <td>Rebis + Aria vandale</td>
+                    <td>Tous les dégats sont augmentés d'un d10</td>
+                    <td>Rebis + Aria vandale + Felandaris</td>
+                    <td>Tous les dégats sont augmentés d'un d20</td>
+                </tr>
+                <tr>
+                    <td>Décocté de Raffard le Blanc</td>
+                    <td>Felandaris + Aria vandale</td>
+                    <td>L'attaquant récupére 1d10 de point de vie lors d'une attaque pendant une scène</td>
+                    <td>Felandaris + Aria vandale + Ninnroot</td>
+                    <td>L'attaquant récupére 10% de point de vie lors d'une attaque pendant 1d10</td></td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>Potions d'affaiblissement</header>
+            <table>
+                <tr>
+                    <td>Niveau</td>
+                    <td class="recherche" colspan="2">Niveau I</td>
+                    <td class="recherche" colspan="2">Niveau II</td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                </tr>
+                <tr>
+                    <td>La négociation pour les nulls</td>
+                    <td>Poudre d'os + Lotus noir</td>
+                    <td>La cible reçoit un malus de 10 sur un test de négociation</td>
+                    <td>Poudre d'os + Lotus noir + Aria vandale</td>
+                    <td>La cible échoue tous ses tests de négociation pendant la scène en cours</td>
+                </tr>
+                <tr>
+                    <td>Faiblesse élémentaire</td>
+                    <td>Lotus noir + Sang de dragon</td>
+                    <td>La résistance élémentaire la plus haute de la cible diminue de 1 rang</td>
+                    <td>Lotus noir + Sang de dragon + Ether</td>
+                    <td>La résistance élémentaire la plus haute de la cible diminue de 3 rang</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>Poisons</header>
+            <table>
+                <tr>
+                    <td>Niveau</td>
+                    <td class="recherche" colspan="2">Niveau I</td>
+                    <td class="recherche" colspan="2">Niveau II</td>
+                </tr>
+                <tr>
+                    <td>Nom</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                    <td>Ingrédients</td>
+                    <td>Effets</td>
+                </tr>
+                <tr>
+                    <td>Sang noir</td>
+                    <td>Ninnroot + Obscurcine</td>
+                    <td>La cible perd 20% de vitalité</td>
+                    <td>Ninnroot + Obscurcine + Lotus noir</td>
+                    <td>La cible perd 20% de vitalité et reçoit la blessure Hemorragie (1D6 de dégats par tour)</td>
+                </tr>
+                <tr>
+                    <td>Nécrose</td>
+                    <td>Poudre d'os + Obscurcine</td>
+                    <td>La blessure nécrose. Au bout de 1d6 tours, la cible devient un mort-vivant et attaque 
+                        tout le monde. Le mort-vivant priorise la cible la plus proche
+                    </td>
+                    <td>Poudre d'os + Obscurcine + Lotus noir</td>
+                    <td>La nécrose est instantanée</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
+</html>
