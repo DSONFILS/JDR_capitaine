@@ -1,0 +1,26 @@
+En explorant la forêt autours du camps en quête de ressource pour réparer le bateau, le capitaine Leine aperçoit une ombre se mouvoir
+à la limite de son champ de vision. Il constate, à sa grande suprise, qu'elle ressemble à celle de son ancient commandant lorsqu'il se
+battait sous la bannière de roi de Verkonos. Le souvenir douloureu d'une défaite militaire envahit l'esprit du capitaine 
+Leine. Il n'eut pas la volonté de résister à ce souvenir et suivit l'ombre jusque dans une caverne.
+Sur le chemin, le capitaine se remémora cette bataille. A l'époque il était commandant en second sur un navire militaire de Verkonos. Son 
+navire avait été rattaché à un importante flotte dont l'objectif était l'invasion de Corlantae.
+En quelques heures, la flotte de Corlantae avait été balayée et le débarquement avait commencé. Seulement, les troupes au sol de Corlantae était
+d'une efficacité redoutable. La stratégie du commandant de Leine était déplorable. Etant commandant en second, Leine essaya de résonner son commandant afin 
+qu'il emploie une autre stratégie. Celui-ci refusa. La bataille tourna à la boucherie. Leine avait des amis se faire massacrer par la stuptidité d'un
+seul homme. Voyant cette débacle, le commandant ordonna le repli en abandonnant les survivants. Une fois de retours sur les navires, il ordonna 
+le bombardement de la côte.
+
+Ce souvenir rempli Leine de coulère. S'il s'était élevé contre son commnandant, il aurait sauvé ses amis et remporté la victoire.
+Leine arriva dans une salle pièce taillée au sein même de la caverne. Au centre se tenait un pilier sur lequel était gravé le nom de ses amis
+mort lors de se jour funeste. Il toucha le pillier et se retrouva dans son souvenir au moment du débarquement des troupes.
+
+Déroulement du donjon :
+1) Leine se trouve au côté de son commandant et regarde les troupes débarquées
+2) Les troupes se mettent en formation de combat. A ce moment les armées de Corlantae se mettent a attaqué
+3) Déroulement de la bataille.
+4) Leine se retourne contre son commandant et prend la direction des opérations militaires.
+5) Il peut aller sur le champ de bataille et mené ses troupes
+
+Objectif : Leine doit essayer de remporter la victoire. Il doit se conduire avec bravoure et honneur.
+Il dispose de 25 batillons de 1000 soldats. Son commandant en engage seulement 10 au débarquement et ne veux pas engager le reste de ses
+troupes. Corlantae dispose de 15 bataillons.
