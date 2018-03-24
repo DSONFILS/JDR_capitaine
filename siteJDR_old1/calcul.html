@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mon JDR</title>
+	<link rel="stylesheet" href="./stylesheet/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./stylesheet/feuille/feuille_style.css">
+</head>
+<body>
+	<header class="entete">
+		<h2 id="hykosia">Le monde d'Hykosia</h2>
+	</header>
+	<nav>
+		<a href="index.html" title ="presentation">Présentation de l'univers</a>
+		<a href="heros.html" title ="heros">Les héros</a>
+        <a href="regles.html" title ="regles">Règles</a>
+        <a href="dons.html" title ="dons">Dons et compétences</a>
+		<a href="magie.html" title ="magie">Magie ancestrale</a>
+		<a href="bateaux.php" title ="bateaux">Navires et pillage</a>
+        <a href="commerce.php" title ="commerce">Commerce</a>
+        <a href="quetes.html" title="quetes">Quêtes secondaires</a>
+		<a href="alchimie.html" title="alchimie">Alchimie</a>
+        <a href="calcul.html" title="calculateur">Calculateur</a>
+    </nav>
+    
+    <section>
+        <article>
+            <header class="hykosia">Calculateur de dégats</header>
+            <h3 class="sous-partie">Dégats des canons :</h3>
+            Résulat du DD dégâts : <input type="number" id="degats_canon" class="separator_ligne size-input"/>
+            Nombre de canons : <input type="number" id="nb_canon_calcul" class="separator_ligne size-input"/>
+            <button onclick="calcul_degats_canon()">Calcul</button>
+            Dégâts totaux des canons : <input type="text" id="degats_total_canons" class="separator_ligne size-input"/>
+        </article>
+        
+        <article>
+            <header class="hykosia">Calculateur de part</header>
+
+            Nombre de part : <input type="number" id="nb_part" class="separator_ligne size-input"/>
+            Valeur du butin : <input type="number" id="valeur_butin" class="separator_ligne size-input"/>
+            <button onclick="calcul_part()">Calcul</button>
+            <br>
+            Part normale : <input type="text" id="part_normale" class="separator_ligne size-input" disabled/>
+            Perte/Gain de moral : <input type="text" id="moral" class="separator_ligne size-input" disabled/>
+            <br>
+            Part du Capitaine : <input type="text" id="part_capitaine" class="separator_ligne size-input" disabled/>
+            <br>
+            Part du Quartier maître : <input type="text" id="part_quartierMaitre" class="separator_ligne size-input" disabled/> 
+            <br>
+            Part de l'équipage : <input type="text" id="part_equipage" class="separator_ligne size-input" disabled/> 
+        </article>
+    </section>
+
+	<script
+	    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+	    type="text/javascript"></script>
+    <script src="./stylesheet/dist/js/bootstrap.min.js"
+	    type="text/javascript"></script>
+    <!-- <script src="./controllers/bateaux.controller.js" type="text/javascript"></script> -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"
+        type="text/javascript"></script>
+    <script src="./includes//script/script_calcul.js" type="text/javascript"></script>
+</body>
+</html>

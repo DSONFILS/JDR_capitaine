@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mon JDR</title>
+	<link rel="stylesheet" href="./stylesheet/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./stylesheet/feuille/feuille_style.css">
+</head>
+<body>
+	<header class="entete">
+		<h2 id="hykosia">Le monde d'Hykosia</h2>
+	</header>
+	<nav>
+		<a href="index.html" title ="presentation">Présentation de l'univers</a>
+		<a href="heros.html" title ="heros">Les héros</a>
+        <a href="regles.html" title ="regles">Règles</a>
+        <a href="dons.html" title ="dons">Dons et compétences</a>
+		<a href="magie.html" title ="magie">Magie ancestrale</a>
+		<a href="bateaux.php" title ="bateaux">Navires et pillage</a>
+		<a href="commerce.php" title ="commerce">Commerce</a>
+		<a href="quetes.html" title="quetes">Quêtes secondaires</a>
+		<a href="alchimie.html" title="alchimie">Alchimie</a>
+		<a href="calcul.html" title="calculateur">Calculateur</a>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./stylesheet/dist/js/bootstrap.min.js"></script>
+    <section>
+        <article>
+            <p>
+                Il existe plusieurs types de quêtes secondaires :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>exploration</li>
+                    <li>escorte</li>
+                    <li>chasse aux monstres</li>
+                    <li>prime</li>
+                    <li>assassinat (uniquement pour un joueur ayant la classe Assassin)</li>
+                    <li>videur (uniquement dans les tavernes, auberges et bordels)</li>
+                </ul>
+                Les quêtes ont 4 niveaux de difficultés :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>facil</li>
+                    <li>normal</li>
+                    <li>difficil</li>
+                    <li>rude</li>
+                    <li>extrême</li>
+                </ul>
+            </p>
+            <p>
+                Les quêtes secondaires peuvent se récupérer dans plusieurs lieux :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>la taverne</li>
+                    <li>l'auberge</li>
+                    <li>le bordel</li>
+                    <li>la garnison</li>
+                </ul>
+                Ces différents lieux sont présents dans tout les villages mise à part dans les 
+                tout petits villages (une centaine d'habitants) où la taverne, l'auberge et le 
+                bordel sont rassemblés dans le même bâtiment.
+                <h3 class="sous-sous-sous-partie">La taverne :</h3>
+                La taverne est le lieu les habitants et voyageurs viennent pour boire et 
+                jouer à des jeux de hasards. Les joueurs peuvent y récupérer des quêtes :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>d'exploration</li>
+                    <li>d'assassinat</li>
+                    <li>de videur</li>
+                </ul>
+                <div style="clear: both; float: none; height: 0;"></div>
+
+                <h3 class="sous-sous-sous-partie">L'auberge :</h3>
+                L'auberge est le lieux où les voyageurs viennent pour se nourrir et prendre du repos. 
+                Ce lieux et par conséquent beaucoup plus calme que la taverne et le bordel. L'auberge 
+                compte parmis sa clientelle principalement des marchands. Les joueurs pourront récupérer 
+                des quêtes :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>d'exploration</li>
+                    <li>d'escorte</li>
+                    <li>de videur</li>
+                </ul>
+                <div style="clear: both; float: none; height: 0;"></div>
+
+                <h3 class="sous-sous-sous-partie">Le bordel :</h3>
+                Le bordel est l'endroit ou les habitants et les voyageurs viennent chercher de la 
+                compagnie auprès d'un personnel au charme négociable. Les joueurs peuvent y trouver 
+                les type de quêtes suivantes :
+                <ul style="list-style-type:lower-alpha;">
+                    <li>tous les types de quêtes</li>
+                    <li>de videur</li>
+                </ul>
+                <div style="clear: both; float: none; height: 0;"></div>
+
+                <h3 class="sous-sous-sous-partie">La garnison :</h3>
+                <div style="clear: both; float: none; height: 0;"></div>
+            </p>
+        </article>
+        <article>
+            <header>Quêtes d'exploration</header>
+            <table>
+                <tr>
+                    <td></td>
+                    <td colspan="4">Configuration</td>
+                    <td colspan="4">Récompenses</td>
+                </tr>
+                <tr>
+                    <td>Niveau</td>
+                    <td>Nombre de monstres</td>
+                    <td>Nombre de pièges</td>
+                    <td>Nombre de salles secrètes</td>
+                    <td>Niveau de menace</td>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>Facil</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                    <td>-1</td>
+                    <td>200</td>
+                    <td>5000</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>15</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>300</td>
+                    <td>6000</td>
+                    <td>3</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Difficil</td>
+                    <td>20</td>
+                    <td>15</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>400</td>
+                    <td>10000</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Rude</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>600</td>
+                    <td>20000</td>
+                    <td>10</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Extrême</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>100</td>
+                    <td>50000</td>
+                    <td>15</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>Quêtes d'escorte</header>
+            Le maître du jeu lance un d20 pour savoir s'il y a un événement nocturne. Si le DD est
+            supérieur à 15, un événement se déclenche durant le bivouac et il ne rentre pas en compte 
+            dans le comptage du nombre d'ambuscade.
+            <table>
+                <tr>
+                    <td></td>
+                    <td colspan="4">Configuration</td>
+                    <td colspan="4">Récompenses</td>
+                </tr>
+                <tr>
+                    <td>Niveau</td>
+                    <td>Nombre d'ambuscade</td>
+                    <td>Nombre de jours</td>
+                    <td>Niveau de menace</td>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>Facil</td>
+                    <td>1</td>
+                    <td>1d6</td>
+                    <td>-1</td>
+                    <td>200</td>
+                    <td>5000</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Normal</td>
+                    <td>2</td>
+                    <td>1d6</td>
+                    <td>0</td>
+                    <td>300</td>
+                    <td>6000</td>
+                    <td>3</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Difficil</td>
+                    <td>3</td>
+                    <td>1d6</td>
+                    <td>1</td>
+                    <td>400</td>
+                    <td>10000</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Rude</td>
+                    <td>1d6</td>
+                    <td>1d8</td>
+                    <td>2</td>
+                    <td>600</td>
+                    <td>20000</td>
+                    <td>10</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Extrême</td>
+                    <td>1d6</td>
+                    <td>1d10</td>
+                    <td>4</td>
+                    <td>1000</td>
+                    <td>50000</td>
+                    <td>15</td>
+                    <td>4</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <header>Quêtes de chasse aux monstres</header>
+            La chasse consiste à éliminer un monstre ou un groupe de monstres.
+            <h3 class="sous-partie">Chasse facile :</h3>
+            Il s'agit de la traque d'un animal sauvage.
+            <br>
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>200</td>
+                    <td>5000</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            
+            <h3 class="sous-partie">Chasse normale :</h3>
+            Ce type de chasse correspond à la traque d'une meute.
+            <br>
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>300</td>
+                    <td>6000</td>
+                    <td>3</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+            <h3 class="sous-partie">Chasse difficile :</h3>
+            Il s'agit d'un animal sauvage alpha.
+            <br>
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>400</td>
+                    <td>10000</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+            <h3 class="sous-partie">Chasse rude :</h3>
+            Il s'agit d'un animal sauvage alpha accompagné d'une meute normale.
+            <br>
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>600</td>
+                    <td>20000</td>
+                    <td>10</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+            <h3 class="sous-partie">Chasse Extrême :</h3>
+            Cette chasse est particulièrement dangereuse est rare. En effet, les seuls créatures 
+            éligibles sont les:
+            <ul style="list-style-type:lower-alpha;">
+                <li>dragons</li>
+                <li>wyvernes</li>
+                <li>griffons</li>
+                <li>krakens</li>
+                <li>géants</li>
+            </ul>
+            <br>
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>50000</td>
+                    <td>15</td>
+                    <td>4</td>
+                </tr>
+            </table>
+
+        </article>
+        <article>
+            <header>Quêtes de primes</header>
+            Ce type de quête consiste à traquer un bateau ou un groupe de bandit.
+        </article>
+        <article>
+            <header>Quêtes d'assassinat</header>
+            Ce type de quête n'est accessible pour que pour un personnage ayant la classe assassin.
+            Les récompenses sont attribués uniquement au joueur réalisant la quête.
+        </article>
+        <article>
+            <header>Quêtes de videur</header>
+            Ce type de quête n'est disponible que dans les établissements de types auberge, taverne et 
+            bordel. Dans c'est lieux ou l'on boit de l'alcool, prend des paris, etc les humeurs peuvent 
+            s'échauffer. Les gardes étant rarement présent pour maintenir l'ordre dans ces lieux, les 
+            gérants de ce type d'établissement peuvent demander l'aide des joueurs pour mettre dehors et 
+            corriger les fauteurs de troubles.
+            <br>
+            La difficulté de ce type de quête est fixée à normale.
+            Récompenses :
+            <table class="petit-tableau">
+                <tr>
+                    <td>Expérience</td>
+                    <td>PA</td>
+                    <td>Renom</td>
+                    <td>Moral</td>
+                </tr>
+                <tr>
+                    <td>150</td>
+                    <td>Consommation gratuite pour le reste du séjour, y compris le prix des chambres</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
+</html>
