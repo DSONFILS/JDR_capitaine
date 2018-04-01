@@ -2,10 +2,10 @@
 -- version 4.5.4.1
 -- http://www.phpmyadmin.net
 --
--- Client :  localhost
--- Généré le :  Ven 23 Mars 2018 à 21:41
--- Version du serveur :  5.7.11
--- Version de PHP :  7.0.3
+-- Host: localhost
+-- Generation Time: Apr 01, 2018 at 07:55 AM
+-- Server version: 5.7.11
+-- PHP Version: 7.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `commerce`
+-- Database: `commerce`
 --
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `atrodia`
+-- Table structure for table `atrodia`
 --
 
 CREATE TABLE `atrodia` (
@@ -34,7 +34,7 @@ CREATE TABLE `atrodia` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `atrodia`
+-- Dumping data for table `atrodia`
 --
 
 INSERT INTO `atrodia` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -48,7 +48,7 @@ INSERT INTO `atrodia` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `corlantae`
+-- Table structure for table `corlantae`
 --
 
 CREATE TABLE `corlantae` (
@@ -59,7 +59,7 @@ CREATE TABLE `corlantae` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `corlantae`
+-- Dumping data for table `corlantae`
 --
 
 INSERT INTO `corlantae` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -73,7 +73,7 @@ INSERT INTO `corlantae` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `hepothysus`
+-- Table structure for table `hepothysus`
 --
 
 CREATE TABLE `hepothysus` (
@@ -84,7 +84,7 @@ CREATE TABLE `hepothysus` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `hepothysus`
+-- Dumping data for table `hepothysus`
 --
 
 INSERT INTO `hepothysus` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -93,12 +93,12 @@ INSERT INTO `hepothysus` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 (3, 'Orge', 'Parchemin', 'Acajou'),
 (4, 'Mouton', 'Topaze/Rubis', 'Bronze'),
 (5, 'Rhum', 'Cordage', 'Soie'),
-(6, 'Biere', 'Argent', 'Cuivre');
+(6, 'Bière', 'Argent', 'Cuivre');
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `materiau`
+-- Table structure for table `materiau`
 --
 
 CREATE TABLE `materiau` (
@@ -108,7 +108,7 @@ CREATE TABLE `materiau` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `materiau`
+-- Dumping data for table `materiau`
 --
 
 INSERT INTO `materiau` (`id`, `ressource`, `prix`) VALUES
@@ -146,7 +146,7 @@ INSERT INTO `materiau` (`id`, `ressource`, `prix`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `olegea`
+-- Table structure for table `olegea`
 --
 
 CREATE TABLE `olegea` (
@@ -157,7 +157,7 @@ CREATE TABLE `olegea` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `olegea`
+-- Dumping data for table `olegea`
 --
 
 INSERT INTO `olegea` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -171,7 +171,7 @@ INSERT INTO `olegea` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `revus`
+-- Table structure for table `revus`
 --
 
 CREATE TABLE `revus` (
@@ -182,7 +182,7 @@ CREATE TABLE `revus` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `revus`
+-- Dumping data for table `revus`
 --
 
 INSERT INTO `revus` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -196,7 +196,7 @@ INSERT INTO `revus` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `tertio`
+-- Table structure for table `tertio`
 --
 
 CREATE TABLE `tertio` (
@@ -207,7 +207,7 @@ CREATE TABLE `tertio` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `tertio`
+-- Dumping data for table `tertio`
 --
 
 INSERT INTO `tertio` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -215,13 +215,13 @@ INSERT INTO `tertio` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 (2, 'Banane', 'Or', 'Avoine'),
 (3, 'Malte', 'Huile de Baleine', 'Pierre'),
 (4, 'Orge', 'Soie', 'Parchemin'),
-(5, 'Ble', 'Emeraude', 'Encre'),
+(5, 'Blé', 'Emeraude', 'Encre'),
 (6, 'Raisin/Vin', 'Poudre', 'Ebonite');
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `verkonos`
+-- Table structure for table `verkonos`
 --
 
 CREATE TABLE `verkonos` (
@@ -232,7 +232,7 @@ CREATE TABLE `verkonos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `verkonos`
+-- Dumping data for table `verkonos`
 --
 
 INSERT INTO `verkonos` (`id`, `vivre`, `materiau`, `recherche`) VALUES
@@ -246,7 +246,7 @@ INSERT INTO `verkonos` (`id`, `vivre`, `materiau`, `recherche`) VALUES
 -- --------------------------------------------------------
 
 --
--- Structure de la table `vivres`
+-- Table structure for table `vivres`
 --
 
 CREATE TABLE `vivres` (
@@ -256,7 +256,7 @@ CREATE TABLE `vivres` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `vivres`
+-- Dumping data for table `vivres`
 --
 
 INSERT INTO `vivres` (`id`, `ressource`, `prix`) VALUES
@@ -292,87 +292,87 @@ INSERT INTO `vivres` (`id`, `ressource`, `prix`) VALUES
 (30, 'Thon', 2500);
 
 --
--- Index pour les tables exportées
+-- Indexes for dumped tables
 --
 
 --
--- Index pour la table `atrodia`
+-- Indexes for table `atrodia`
 --
 ALTER TABLE `atrodia`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `corlantae`
+-- Indexes for table `corlantae`
 --
 ALTER TABLE `corlantae`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `hepothysus`
+-- Indexes for table `hepothysus`
 --
 ALTER TABLE `hepothysus`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `olegea`
+-- Indexes for table `olegea`
 --
 ALTER TABLE `olegea`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `revus`
+-- Indexes for table `revus`
 --
 ALTER TABLE `revus`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `tertio`
+-- Indexes for table `tertio`
 --
 ALTER TABLE `tertio`
   ADD PRIMARY KEY (`id`);
 
 --
--- Index pour la table `verkonos`
+-- Indexes for table `verkonos`
 --
 ALTER TABLE `verkonos`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT pour les tables exportées
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT pour la table `atrodia`
+-- AUTO_INCREMENT for table `atrodia`
 --
 ALTER TABLE `atrodia`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `corlantae`
+-- AUTO_INCREMENT for table `corlantae`
 --
 ALTER TABLE `corlantae`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `hepothysus`
+-- AUTO_INCREMENT for table `hepothysus`
 --
 ALTER TABLE `hepothysus`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `olegea`
+-- AUTO_INCREMENT for table `olegea`
 --
 ALTER TABLE `olegea`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `revus`
+-- AUTO_INCREMENT for table `revus`
 --
 ALTER TABLE `revus`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `tertio`
+-- AUTO_INCREMENT for table `tertio`
 --
 ALTER TABLE `tertio`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
--- AUTO_INCREMENT pour la table `verkonos`
+-- AUTO_INCREMENT for table `verkonos`
 --
 ALTER TABLE `verkonos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
