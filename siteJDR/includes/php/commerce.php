@@ -3,6 +3,7 @@ header( 'content-type: text/html; charset=utf-8' );
 // init bdd
 $bdd = mysqli_connect ( 'localhost:3306', 'root', 'root' );
 mysqli_select_db ( $bdd, 'commerce' );
+echo $_POST['inlineRadioOptions'];
 //Requete
 if(isset($_POST['inlineRadioOptions'])){
 	$query = 'SELECT vivre,vivres.prix AS vp,materiau,materiau.prix AS mp 
