@@ -46,34 +46,34 @@
 				<fieldset class="scheduler-border text-center">
 					<legend class="scheduler-border">Choix du continent</legend>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Atrodia"
+						name="inlineRadioOptions" id="inlineRadio" value="atrodia"
 						onclick="maj_commerce(this)"> 
 						Atrodia </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Corlantae"
+						name="inlineRadioOptions" id="inlineRadio" value="corlantae"
 						onclick="maj_commerce(this)">
 						Corlantae </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Hepothysus"
+						name="inlineRadioOptions" id="inlineRadio" value="hepothysus"
 						onclick="maj_commerce(this)">
 						Hepothysus </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Olegea" 
+						name="inlineRadioOptions" id="inlineRadio" value="olegea" 
 						onclick="maj_commerce(this)">
 						Olegea
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Revus" 
+						name="inlineRadioOptions" id="inlineRadio" value="revus" 
 						onclick="maj_commerce(this)">
 						Revus
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Tertio" 
+						name="inlineRadioOptions" id="inlineRadio" value="tertio" 
 						onclick="maj_commerce(this)">
 						Tertio
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Verkonos" 
+						name="inlineRadioOptions" id="inlineRadio" value="verkonos" 
 						onclick="maj_commerce(this)">
 						Verkonos
 					</label>
