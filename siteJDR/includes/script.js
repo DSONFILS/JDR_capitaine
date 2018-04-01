@@ -253,6 +253,7 @@ function get_commerce(btnRadio){
 		data: ajaxData,
 		dataType: 'json'
 	}).done(function(jsonResult){
+		console.log($(btnRadio).val());
 		var taille = jsonResult.commerce_normal.length;
 		var id_html_v = Array('#viv1','#viv2','#viv3','#viv4','#viv5','#viv6');
 		var id_html_vp = Array('#prix_v1','#prix_v2','#prix_v3','#prix_v4','#prix_v5','#prix_v6');
