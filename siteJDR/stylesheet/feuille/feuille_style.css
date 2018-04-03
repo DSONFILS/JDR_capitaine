@@ -68,6 +68,8 @@ article {
 	border: none 1px rgb(46, 0, 108);
 	background-color: rgba(86, 115, 154, 0.5);
 	margin-top: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 article>header {
