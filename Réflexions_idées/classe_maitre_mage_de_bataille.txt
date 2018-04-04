@@ -1,0 +1,13 @@
+Classe maître : le mage de bataille
+
+Description : Le mage de bataille est né pour se battre. Il n'hésite pas à se jetter dans la mélée, usant de son épée et de sa magie sans
+restriction.
+Rôle au sein du groupe : dégats & support
+Conditions : la classe de base Mage, ou sorcier est nécessaire. Il faut au moins 12 en constitution et le don magie profane.
+
+Lvl 1 : Utilisation du bouclier en combat. Charge au bouclier et test de réflexe pour éviter une attaque.
+Lvl 2 : Soutient. Les sorts de portée personnelle sont lancés pour toute l'équipe s'ils sont dans la même zone.
+Lvl 3 : Rune de protection élémentaire. Au début du combat la mage choisit un élément. Le bouclier disperse les sort de cet élément. Pour
+une action complexe la mage peut changer l'alignement élémentaire de son bouclier.
+Lvl 4 : 
+Lvl 5 :
