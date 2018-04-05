@@ -367,5 +367,6 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"
 	type="text/javascript"></script>
-<script src="./includes/script.js" type="text/javascript"></script>
+<script src="./includes/script/script_combat.js" type="text/javascript"></script>
+<script src="./includes/script/script_commerce.js" type="text/javascript"></script>
 </html>
