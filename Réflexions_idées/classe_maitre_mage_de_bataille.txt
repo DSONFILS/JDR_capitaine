@@ -4,21 +4,31 @@ Description : Le mage de bataille est né pour se battre. Il n'hésite pas à se je
 restriction.
 Rôle au sein du groupe : dégats & support
 Conditions : la classe de base Mage, ou sorcier est nécessaire. Il faut au moins 12 en constitution et le don magie profane.
-Talent: Personne n'est meilleur que moi !
+Talent: Personne n'est meilleur que moi ! Maitrise du bouclier
 
-Lvl 1 : Utilisation du bouclier en combat. Charge au bouclier et test de réflexe pour éviter une attaque.
-Lvl 2 : Soutient. Les sorts de portée personnelle sont lancés pour toute l'équipe s'ils sont dans la même zone.
+Lvl 1 : Personne n'est meilleur que moi !, Riposte magique I
+Lvl 2 : Soutient de groupe.
 Lvl 3 : Rune de protection élémentaire. Au début du combat le mage choisit un élément. Le bouclier disperse les sort de cet élément. Pour
 une action complexe la mage peut changer l'alignement élémentaire de son bouclier.
-Lvl 4 : Don Riposte magique.
+Lvl 4 : Don Riposte magique II
 Lvl 5 : Des sorts ! Toujours des sorts
 
 
 Personne n'est meilleur que moi !
 Le jet de sauvegarde sur un sort se calcul désormais avec le bonus d'incatation.
 
+Soutient de groupe : les sorts de portée personnelle sont lancés pour toute l'équipe s'ils sont dans la même zone.
+
 Des sorts ! Toujours des sorts : le mage de bataille devient un expert en sortilège et en toute circonstance. Il obtient 2 postures :
 Magie de proximité : les dégâts des sorts de portée "contact" sont doublés et ceux des sorts de porté plus grande son divisé par deux.
 Magie à distance : c'est l'inverse de Magie de proximité.
 Ce don ne s'active que si le mage l'active en début de combat ou en cours de combat pour 2 demi-actions. 2 demi-actions sont 
 également nécessaires pour désactiver le don. Une fois que le don est activé, le mage change automatiquement de posture tous les tours.
+
+Don de riposte magique I :
+Lorsqu'une créature rate un test d'incantation, le joueur peut lancer un sort pour une action gratuite. Le coup en PM est 
+normal.
+
+Don de rispote magique II:
+Lorsqu'une créature réalise un échec critique sur un test d'incantation, le joueur lance un sort critique. Le coup en PM de ce sort 
+est augmenté de 50%.
