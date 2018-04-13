@@ -27,7 +27,7 @@
 	</nav>
 	<section>
 		<article>
-            <header Class="hykosia">Fiche de personnage d'Azhsara</header>
+            <header class="hykosia">Fiche de personnage d'Azhsara</header>
             <h3 class="sous-partie">Description</h3>
             Race/talent : elfe <br>
             Spécialité : <br>

@@ -13,8 +13,26 @@
 		<h2 id="hykosia">Le monde d'Hykosia</h2>
 	</header>
 	<section>
-        
-    </section>
+		<header class="connexion">Connexion</header>
+		<form class=connexion-form>
+			<label>Nom du personnage</label>
+			</br>
+			<input type="text" value=""/>
+			</br>
+			<label>Mot de passe</label>
+			</br>
+			<input type="password" value=""/>
+			<label>Confirmer le mot de passe</label>
+			</br>
+			<input type="password" value=""/>
+			</br>
+			<label>Couriel</label>
+			</br>
+			<input type="text" value=""/>
+			</br>
+			<button onclick="inscription()">Valider</button>
+		</form>
+	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
