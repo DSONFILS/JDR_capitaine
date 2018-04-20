@@ -20,13 +20,13 @@
 		<form class=connexion-form>
 			<label>Nom du personnage</label>
 			</br>
-			<input type="text" value=""/>
+			<input id="login" type="text" value=""/>
 			</br>
 			<label>Mot de passe</label>
 			</br>
-			<input type="password" value=""/>
+			<input id="password" type="password" value=""/>
 			</br>
-			<button onclick="connexion()">Valider</button>
+			<button onclick="connexion()">Connexion</button>
 		</form>
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
