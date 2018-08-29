@@ -16,5 +16,21 @@ function connexion() {
 }
 
 function inscription() {
-    
+    $(document).ready(function(){
+        $("#submit").click(function(){
+            $.post(
+                'inscription.php',
+                {
+                    username : $("#inscription_login").val(),
+                    password : $("#inscription_mdp").val(),
+                    password_confirm : $("#inscription_mdp_confirm").val(),
+                    courriel : $("#inscription_couriel").val()
+                },
+                function(data){
+                    // TODO
+                },
+                'Inscription réussie !' 
+            );
+        });
+    });
 }

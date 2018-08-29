@@ -6,7 +6,6 @@ function inscription(){
     
     if(isset($_POST['inscription_mdp']) && isset($_POST['inscription_login']) $$ 
         isset($_POST['inscription_mdp_confirm']) && isset($_POST['inscription_couriel'])){
-        
         // Hashage du password
         $password_hash = password_hash($_POST['inscription_mdp'], PASSWORD_DEFAULT);
 
@@ -20,5 +19,6 @@ function inscription(){
             'couriel' => $_POST['inscription_couriel']
         ));
     }
+    mysql_close($bdd);
 }
 ?>

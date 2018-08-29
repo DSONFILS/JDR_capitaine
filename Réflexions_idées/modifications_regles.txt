@@ -1,3 +1,8 @@
 Le choix des classes maitres ne peut pas se faire comme pour les autres classes. Les joueurs vont devoir trouver un 
 maitre et realiser une quête de classe.
 Ces quetes de classe vont être ajouter sur la page "Quêtes secondaires"
+
+Donc pour chaques classe il faut un maitre et une quete de classe :
+
+Pour les classes maitres de mage : Dalaran (Atrodia)
+Héritier draconique : un dragon ancestral
