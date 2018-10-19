@@ -32,7 +32,6 @@
 			<input id="inscription_couriel" type="text" value=""/>
 			</br>
 			<button onclick="inscription()">S'enregistrer</button>
-			<button onclick="retour()" id="retour">Retour</button>
 		</form>
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

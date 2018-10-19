@@ -75,7 +75,7 @@ article {
 	color: rgb(15, 5, 107);
 	font-size: 24px;
 	border: none 1px rgb(46, 0, 108);
-	background-color: rgba(86, 115, 154, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	margin-top: 10px;
 	margin-left: 2%;
 	margin-right: 2%;
@@ -146,6 +146,13 @@ td, th {
 	font-size: 25;
 	color: rgb(179, 40, 15);
 	font-weight: bold;
+}
+
+.sous-sous-sous-partie-ligne{
+	font-size: 25;
+	color: rgb(179, 40, 15);
+	font-weight: bold;
+	display: inline;
 }
 
 .sous-partie2{

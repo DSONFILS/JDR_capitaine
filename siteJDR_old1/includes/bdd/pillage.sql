@@ -2,10 +2,10 @@
 -- version 4.5.4.1
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Mar 24, 2018 at 08:08 AM
--- Server version: 5.7.11
--- PHP Version: 7.0.3
+-- Client :  localhost
+-- Généré le :  Sam 02 Septembre 2017 à 10:49
+-- Version du serveur :  5.7.11
+-- Version de PHP :  7.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,17 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `pillage`
+-- Base de données :  `pillage`
 --
+
+CREATE DATABASE pillage;
+
+USE pillage;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `materiau`
+-- Structure de la table `materiau`
 --
 
 CREATE TABLE `materiau` (
@@ -32,7 +36,7 @@ CREATE TABLE `materiau` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `materiau`
+-- Contenu de la table `materiau`
 --
 
 INSERT INTO `materiau` (`id`, `ressource`) VALUES
@@ -70,7 +74,7 @@ INSERT INTO `materiau` (`id`, `ressource`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `vivres`
+-- Structure de la table `vivres`
 --
 
 CREATE TABLE `vivres` (
@@ -79,7 +83,7 @@ CREATE TABLE `vivres` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `vivres`
+-- Contenu de la table `vivres`
 --
 
 INSERT INTO `vivres` (`id`, `ressource`) VALUES
@@ -115,32 +119,32 @@ INSERT INTO `vivres` (`id`, `ressource`) VALUES
 (30, 'Thon');
 
 --
--- Indexes for dumped tables
+-- Index pour les tables exportées
 --
 
 --
--- Indexes for table `materiau`
+-- Index pour la table `materiau`
 --
 ALTER TABLE `materiau`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `vivres`
+-- Index pour la table `vivres`
 --
 ALTER TABLE `vivres`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables exportées
 --
 
 --
--- AUTO_INCREMENT for table `materiau`
+-- AUTO_INCREMENT pour la table `materiau`
 --
 ALTER TABLE `materiau`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 --
--- AUTO_INCREMENT for table `vivres`
+-- AUTO_INCREMENT pour la table `vivres`
 --
 ALTER TABLE `vivres`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;

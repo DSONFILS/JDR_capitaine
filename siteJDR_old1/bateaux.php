@@ -14,7 +14,8 @@
 	</header>
 	<nav>
 		<a href="index.html" title="presentation">Présentation de l'univers</a>
-		<a href="heros.html" title="heros">Les héros</a> 
+		<a href="heros.html" title="heros">Les héros</a>
+		<a href="ile.html" title="heros">L'île</a> 
 		<a href="regles.html" title="regles">Règles</a>
 		<a href="dons.html" title ="dons">Dons et compétences</a> 
 		<a href="magie.html" title="magie">Magie ancestrale</a> 
@@ -366,5 +367,6 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"
 	type="text/javascript"></script>
-<script src="./includes/script.js" type="text/javascript"></script>
+<script src="./includes/script/script_combat.js" type="text/javascript"></script>
+<script src="./includes/script/script_commerce.js" type="text/javascript"></script>
 </html>

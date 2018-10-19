@@ -15,6 +15,7 @@
 	<nav>
 		<a href="index.html" title ="presentation">Présentation de l'univers</a>
 		<a href="heros.html" title ="heros">Les héros</a>
+		<a href="ile.html" title="heros">L'île</a>
 		<a href="regles.html" title ="regles">Règles</a>
 		<a href="dons.html" title ="dons">Dons et compétences</a>
 		<a href="magie.html" title ="magie">Magie ancestrale</a>
@@ -45,34 +46,34 @@
 				<fieldset class="scheduler-border text-center">
 					<legend class="scheduler-border">Choix du continent</legend>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Atrodia"
+						name="inlineRadioOptions" id="inlineRadio" value="atrodia"
 						onclick="maj_commerce(this)"> 
 						Atrodia </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Corlantae"
+						name="inlineRadioOptions" id="inlineRadio" value="corlantae"
 						onclick="maj_commerce(this)">
 						Corlantae </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Hepothysus"
+						name="inlineRadioOptions" id="inlineRadio" value="hepothysus"
 						onclick="maj_commerce(this)">
 						Hepothysus </label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Olegea" 
+						name="inlineRadioOptions" id="inlineRadio" value="olegea" 
 						onclick="maj_commerce(this)">
 						Olegea
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Revus" 
+						name="inlineRadioOptions" id="inlineRadio" value="revus" 
 						onclick="maj_commerce(this)">
 						Revus
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Tertio" 
+						name="inlineRadioOptions" id="inlineRadio" value="tertio" 
 						onclick="maj_commerce(this)">
 						Tertio
 					</label>
 					<label class="radio-inline"> <input type="radio"
-						name="inlineRadioOptions" id="inlineRadio" value="Verkonos" 
+						name="inlineRadioOptions" id="inlineRadio" value="verkonos" 
 						onclick="maj_commerce(this)">
 						Verkonos
 					</label>
@@ -304,7 +305,7 @@
     <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"
 	type="text/javascript"></script>
-<script src="./includes/script.js" type="text/javascript"></script>
+<script src="./includes/script/script_commerce.js" type="text/javascript"></script>
 <script src="./includes/script/script_calcul.js" type="text/javascript"></script>
 </body>
 </html>

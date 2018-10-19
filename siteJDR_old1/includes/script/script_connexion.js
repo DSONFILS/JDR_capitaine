@@ -34,9 +34,3 @@ function inscription() {
         });
     });
 }
-
-function retour(){
-    $("#submit").click(function(){
-        window.location.href = 'http://localhost:8282/siteJDR/index.php';
-    });
-}

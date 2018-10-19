@@ -17,6 +17,7 @@
 		<a href="heros.html" title ="heros">Les héros</a>
 		<a href="ile.html" title="heros">L'île</a>
 		<a href="regles.html" title ="regles">Règles</a>
+		<a href="classe.html" title="classe">Classes</a>
 		<a href="dons.html" title ="dons">Dons et compétences</a>
 		<a href="magie.html" title ="magie">Magie ancestrale</a>
 		<a href="bateaux.php" title ="bateaux">Navires et pillage</a>
@@ -187,7 +188,7 @@
 		<article>
             <header class="hykosia">Calculateur commerce</header>
             Prix pour 100kg : <input type="number" id="prix_defaut" class="separator_ligne size-input"/>
-            Quantité vendue : <input type="number" id="quantite" class="separator_ligne size-input"/>
+			Quantité vendue : <input type="number" id="quantite" class="separator_ligne size-input"/>
             <button onclick="calcul_commerce()">Calcul</button>
             <br>
 			Prix unitaire : <input type="text" id="prix_unitaire" class="separator_ligne size-input"/>
