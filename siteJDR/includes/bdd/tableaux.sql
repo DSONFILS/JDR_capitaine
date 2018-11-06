@@ -81,3 +81,73 @@ CREATE TABLE `modificateurs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
+
+--
+-- Index pour les tables
+--
+
+--
+-- Index pour la table `races`
+--
+ALTER TABLE `races`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `specialites`
+--
+ALTER TABLE `specialites`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `classes`
+--
+ALTER TABLE `classes`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `talents`
+--
+ALTER TABLE `talents`
+  ADD PRIMARY KEY (`id`);
+
+
+--
+-- Index pour la table `modificateurs`
+--
+ALTER TABLE `modificateurs`
+  ADD PRIMARY KEY (`id`);
+
+
+--
+-- AUTO_INCREMENT pour les tables
+--
+
+--
+-- AUTO_INCREMENT pour la table `races`
+--
+ALTER TABLE `races`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT pour la table `specialites`
+--
+ALTER TABLE `specialites`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT pour la table `classes`
+--
+ALTER TABLE `classes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT pour la table `talents`
+--
+ALTER TABLE `talents`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT pour la table `modificateurs`
+--
+ALTER TABLE `modificateurs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
