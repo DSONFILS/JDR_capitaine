@@ -6,14 +6,21 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { AccueilComponent } from './accueil/accueil.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 const appRoutes: Routes = [
-
+  {
+    path: 'accueil',
+    component: AccueilComponent
+  }
 ];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccueilComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
